@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A metricall declaration of the, vij, petitions of the pater noster</title>
+         </titleStmt>
+         <extent>Approx. 15KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B14611</idno><idno type="EEBO-CITATION">99845287</idno>
+  <idno type="VID">178082</idno>
+  <idno type="EEBO-PROQUEST">2240884379</idno>
+  <idno type="STC">STC 16816</idno>
+  <idno type="STC">ESTC S109640</idno>
+  
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-99845287e"/>
+            <note>(EEBO-TCP ; phase 2, no. B14611)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 178082)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1385:18)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A metricall declaration of the, vij, petitions of the pater noster</title>
+               </titleStmt>
+               <extent>[12] p. : ill. (woodcut)  </extent>
+               <publicationStmt>
+                  <publisher>Printed by Robert Wyer?,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>ca. 1530]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Signatures: A⁶.</note>
+                  <note>Printer's name conjectured and publication date estimated by STC.</note>
+                  <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2014-01 </date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2014-08 </date>
+            <label>Mona Logarbo </label>Sampled and proofread </change>
+         <change>
+            <date>2014-08 </date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:178082:1"/>
+            <p>¶ A metricall declaration of the .vij. petitions of the pater noster.</p>
+            <q>
+               <bibl>Luce. xi.</bibl>
+               <p>when ye pray, saye. Our father whiche arte in heuen. &amp;c.</p>
+            </q>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:178082:2"/>
+            <lg>
+               <l>THough I be wyllynge and feruent of desyre</l>
+               <l>yet for vnkonnynge I dare not me auaunce</l>
+               <l>Of y<seg rend="sup">e</seg> heuēly misteryes though ye wold requyre</l>
+               <l>Of the pater noster to declare in substaunce</l>
+               <l>Recordyd in scrypture / yf ye call to remembraunce</l>
+               <l>This prayer exciteth crystē hartes w<seg rend="sup">t</seg> deuout maters</l>
+               <l>Onely in chryst Iesu to fynde all suffysaunce</l>
+               <l>As therin is taught by the .vii. prayers</l>
+            </lg>
+            <lg>
+               <l>¶ Groundely and bryefely also comprehendyd</l>
+               <l>whyle he was here / of trouth it is thus falle</l>
+               <l>Taught his dyscyples / which may not be amendyd</l>
+               <l>For it transcendeth other prayers all</l>
+               <l>Most auctorysed / whan we for socour call</l>
+               <l>Most celestyall and most of dygnite</l>
+               <l>Crouned amonge prayers in the heuenly stall</l>
+               <l>yf it be sayd in perfyt cheryte</l>
+            </lg>
+            <lg>
+               <l>¶ I haue no mouth / playnly to deuyse</l>
+               <l>Fyrst to remembre / the great dygnyte</l>
+               <l>Ferefull to take / on me so hygh enterpryse</l>
+               <l>Moste celestiall / most aungelyk of degre</l>
+               <l>For to the hygh myghty trinyte</l>
+               <l>It is dyrecte / lorde of most puissaunce</l>
+               <l>whiche called is / one two and thre</l>
+               <l>All one in vertue / and all one in substaunce</l>
+            </lg>
+            <lg>
+               <l>¶ This worde pater sheweth in substaunce</l>
+               <l>His myght is most greatest of excellence</l>
+               <l>Of heuen and erth / hath all the ordynaunce</l>
+               <l>Called welle of grace / myrour of sappence</l>
+               <pb facs="tcp:178082:2"/>
+               <l> whiche to his chyldren / of fatherly prouydence</l>
+               <l>Hath gyue a fraunchyse / aboue fraunchyses all</l>
+               <l>That we may boldly / with deuout reuerence</l>
+               <l>Agayne all myschyefe / to hym for helpe call</l>
+            </lg>
+            <lg>
+               <l>¶ Fyrst this worde Pater / set vs in assurance</l>
+               <l>And this worde / noster / gyueth vs humblenesse</l>
+               <l>Of hym to requyre with deuout obeysaunce</l>
+               <l>Remedy / agayne all worldly dystresse</l>
+               <l>So that charyte with her suster mekenesse</l>
+               <l>Fayth / trust / and hope / be with them present</l>
+               <l>Then whan we praye / and saye of faythfulnesse</l>
+               <l>Pater noster / we shall haue our entent</l>
+            </lg>
+            <lg>
+               <l>¶ In this worde Pater standeth all our confidence</l>
+               <l>Our hole beleue / whan we say Qui es</l>
+               <l>Our stedfast fayth / and fully our credence</l>
+               <l>In heuen abydynge / as souerayne lorde of peas</l>
+               <l>where thre ietachyes / day and nyght not ses</l>
+               <l>To crye in celis / with heuenly melodye</l>
+               <l>Cherubyn nor seraphyn / not slouth nor reckles</l>
+               <l>Synge Osanna / with feruent armonye.</l>
+            </lg>
+            <lg>
+               <l>¶ whose gloryous name / for to magnyfye</l>
+               <l>Mouth and tonge / be lame of theyr langage</l>
+               <l>But the holy gost / by grace lyst vs to guye</l>
+               <l>Vs to enspyre / in our mortall passage</l>
+               <l>As goostly chyldren / borne of hye lynage</l>
+               <l>Neuer to thyne hyghnesse / be no mortall offence</l>
+               <l>In this dredfull perylous pylgrymage</l>
+               <l>Tyll clere contrycion / our gyltes recompence</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:178082:3"/>
+               <l>¶ we were renewed / full nye to thyne alye</l>
+               <l>By the holy gostes / gracyous influence</l>
+               <l>Fyrst by baptyme / to begynne at that partye</l>
+               <l>Next confermed / by thy magnyfycence</l>
+               <l>To ben acceptyd / to thy beniuolence</l>
+               <l>As chose chylderne to thyne herytage</l>
+               <l>That we may saye / with deuout reuerence</l>
+               <l>Lorde haue mercy / on all our olde outrage</l>
+            </lg>
+            <lg>
+               <l>¶ These .vii. peticions / be of vertue most</l>
+               <l>Onely to god / of hole harte applyed</l>
+               <l>To the .vii. vertues / of the holy gost</l>
+               <l>Fyrst whan we saye / this name be sanctifyed</l>
+               <l>Name of all names / halowed and gloryfyed</l>
+               <l>As the gospell playnly doth commaunde</l>
+               <l>But here my symplenesse / with Argus not clere eyed</l>
+               <l>Meue this questyon / askynge this demaunde</l>
+            </lg>
+            <lg>
+               <l>¶ How myght in vs be kynled suche desyre</l>
+               <l>Boldly to saye / conceyued our feblenesse</l>
+               <l>Though charyte brent in vs as flame of fyre</l>
+               <l>Lyke as in Seraphyn / brenneth all perfytnesse</l>
+               <l>I answere thus / a ground take of mekenesse</l>
+               <l>Vertue of vertues / doctours saye the same</l>
+               <l>Vnder support / of his paternall goodnesse</l>
+               <l>To say or thynke / halowed be thy name</l>
+            </lg>
+            <lg>
+               <l>¶ without addicyon to sette our harte at rests</l>
+               <l>That therwithall we haue this sentence</l>
+               <l>For our party / to conclude for our beste</l>
+               <l>In our inwarde / gostly intellygence</l>
+               <pb facs="tcp:178082:3"/>
+               <l> Fyrst that his name / name of moste excellence</l>
+               <l>within hym selfe / euery houre and space</l>
+               <l>Be sanctifyed so / that by his prouidence</l>
+               <l>It maye in vs / be sanctifyed by his grace.</l>
+            </lg>
+            <q xml:lang="lat">Adueniat regnum tuum.</q>
+            <lg>
+               <l>¶ Thy kyngdome lorde illumined with thy face</l>
+               <l>where is full gladnes / of all goostly lyght</l>
+               <l>May come to vs at the tyme set and space</l>
+               <l>whan thou assygnest / by thyne eternall myght</l>
+               <l>Of thy presence / that we maye haue a syght</l>
+               <l>O gracyons lorde / our tyme, so prouyde</l>
+               <l>Claymed with mekenesse / of mercy more than ryght</l>
+               <l>Be mene of thy passyon / that we may there abyde</l>
+            </lg>
+            <lg>
+               <l>¶ Thy kyngdome lorde fyrst in this present lyfe</l>
+               <l>Come to vs / to rewle vs and gouerne</l>
+               <l>Agayne the assawtes / and the treble stryfe</l>
+               <l>Of our thre ennemyes / lorde holde so the lanterne</l>
+               <l>By thy grace whiche that is eterne</l>
+               <l>Reygne so in vs / of reason holde so our brydell</l>
+               <l>Betwene good and euyll / we may so dyscerne</l>
+               <l>Agayne thy pleasure / to do nothynge in idell</l>
+            </lg>
+            <lg>
+               <l>¶ Lo de by thy mercy / reygne in vs so here</l>
+               <l>Of all vyces / that we maye haue vyctory</l>
+               <l>To clayme a tytle / aboue the sterrys clere</l>
+               <l>Thy passyon chyefe / set fyrst in memory</l>
+               <l>with the to reygne / in thyne eternall glory</l>
+               <l>Alked by bylle wrytte / with thy precyous blood</l>
+               <l>Sheed from thy body for our carefull mysery</l>
+               <l>On hygh vppon the mount / at caluary on the rood</l>
+            </lg>
+            <q xml:lang="lat">
+               <pb facs="tcp:178082:4"/> Fiat voluntas tua.</q>
+            <lg>
+               <l>¶ So as thy wyll fulfylled is in heuen</l>
+               <l>Ryght so in erth / fulfylled mout it be</l>
+               <l>Lyke as the court / aboue the sterres seuen</l>
+               <l>Of orders nyne / and ierarchyes thre</l>
+               <l>Syngynge sanctus / thryes before the trinyte</l>
+               <l>So make vs lorde / with deuout obseruaunce</l>
+               <l>Daye and nyght / knelynge on our kne</l>
+               <l>Thy deth thy passyon to haue in remembraunce</l>
+            </lg>
+            <lg>
+               <l>¶ Fyrst thy preceptes / and ten comaūdementes</l>
+               <l>we may fulfylle bytwene hope and drede</l>
+               <l>And forsake with all our hole ententes</l>
+               <l>All that sholde dysplease the in dede</l>
+               <l>Syth to a pyller / thou lyst for vs to b<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ede</l>
+               <l>Therwith to do / all that thou lyste cōmaunde</l>
+               <l>Suffre thy mercy / so vppon vs sprede</l>
+               <l>Part to receyue / that thou gafe at thy maunde</l>
+            </lg>
+            <lg>
+               <l>To thy dyscyples for a memoryall</l>
+               <l>For a perpetuall cōmemoracyon</l>
+               <l>Of thy fleshe and thy blood / take in especyall</l>
+               <l>Of a pure mayde / thyne incarnacyon</l>
+               <l>Thy meke sufferaunce / for our redempcyon</l>
+               <l>with minde also / thou lyst for vs be ded</l>
+               <l>That we may clayme for our saluacyon</l>
+               <l>Receyue thy body amonge in fourme of bred</l>
+            </lg>
+            <q xml:lang="lat">Panem nostrū quotidianū da nobis hodis</q>
+            <lg>
+               <l>¶ That we dare say with all humilyte</l>
+               <l>Vnder the wenges of thy proteccyon</l>
+               <l>Panem nostrum da nobis hodie</l>
+               <l>Knoden afore Pilat / baken in thy passyon</l>
+               <pb facs="tcp:178082:4"/>
+               <l> Our dayly brede our restauracyon</l>
+               <l>Our fode our manna / agayne fendes violence</l>
+               <l>Stronge with Helyas / byble maketh mencyon</l>
+               <l>Tomount Oreb / to haue there resydence</l>
+            </lg>
+            <lg>
+               <l>¶ This brede of lyfe gyueth vs force &amp; myght</l>
+               <l>A gayne gostly enemyes / when they wolde assayle</l>
+               <l>Helthe of the soule oure body stronge in fyght</l>
+               <l>with spyrites infernall / to holde a bat ayle</l>
+               <l>Sathan abydeth not for all his apparayle</l>
+               <l>where this brede is sacred with chrystes mouth</l>
+               <l>Clenly receyued / the fende may not auayle</l>
+               <l>So great vertue / this brede hath east and south</l>
+            </lg>
+            <lg>
+               <l>¶ This brede of aungels / brede celestyall</l>
+               <l>Brede that excellyth / reason and nature</l>
+               <l>Callyd brede of lyfe / and repast eternall</l>
+               <l>Gyueth lyfe euer lastynke / and euer shall endure</l>
+               <l>Most cōmendyd by prophetes in scrypture</l>
+               <l>Bothe to soule and body / brede of most comfort</l>
+               <l>Folke in sykenesse / this bred doth them recure</l>
+               <l>To poore pylgrymmes restoratyfe and support</l>
+            </lg>
+            <q xml:lang="lat">Et dimitte nobis debita nostra &amp;c.</q>
+            <lg>
+               <l>¶ In this peticion o lorde do vs socourre</l>
+               <l>Fyrst consyderynge / our fragilitye</l>
+               <l>Forgyue our dettes / as we forgyue oure</l>
+               <l>Aboue all thynge / to loue and drede the</l>
+               <l>Next our neyghbour / in perfyt cheryte</l>
+               <l>Fyrst deme my selfe / worst of any man</l>
+               <l>Voyde of presumpeyon / bowynge done my kne</l>
+               <l>And to remembre vppon the publican</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:178082:5"/>
+               <l>Durst not lyfte his eyen / vp vnto heuen</l>
+               <l>To loke vp ferefull / on the sonne streme</l>
+               <l>And I am soyled with the synnes seuen</l>
+               <l>That in myne eyen / can not se a large beme</l>
+               <l>Though it spredde / all abrode this reame</l>
+               <l>yet can I se well motys in other mennes syght</l>
+               <l>A small sparke / that castyth out no beme</l>
+               <l>Blent in faurys / though torches were clere lyght</l>
+            </lg>
+            <lg>
+               <l>This to saye I can be well vengeable</l>
+               <l>when my neyghbour / doth a small trespace</l>
+               <l>Though I be gylty / and horryble coulpable</l>
+               <l>Can fynde wayes / lyghtly for to passe</l>
+               <l>And agaynst my brother / great gyltes compasse</l>
+               <l>My selfe also excuse / and put on hym the wrake</l>
+               <l>with lyke fals assemblaunt / shew out a fayre face</l>
+               <l>As in my selfe there founde were no lacke</l>
+            </lg>
+            <lg>
+               <l>¶ And to conclude who wyll no mercy haue</l>
+               <l>At his most nede he shall go mercyles</l>
+               <l>And who is besy his neyghbour to depraue</l>
+               <l>By fals report / escapeth not harmeles</l>
+               <l>Mourder at the back and language rekles</l>
+               <l>Ipocrysye / fraude / compassyth guyle</l>
+               <l>Symulacyon and flatry put in presse</l>
+               <l>This sort wyll out though they dure a whyle</l>
+            </lg>
+            <lg>
+               <l>¶ But yf thou stonde in perfyt cheryte</l>
+               <l>To loue thy frende / and also thyn enemye</l>
+               <l>without faynynge / or duplycyte</l>
+               <l>That there be no faute couertly</l>
+               <pb facs="tcp:178082:5"/>
+               <l> To shewe one outwarde / and another inwardly</l>
+               <l>In such wyse / thy prayer is not good</l>
+               <l>I dare affyrme / and wryte trewly</l>
+               <l>God louyd neuer / two faces in one hood</l>
+            </lg>
+            <q xml:lang="lat">Et ne nos inducas in temptacionē</q>
+            <lg>
+               <l>¶ O lorde Iesu of mercyfull pyte</l>
+               <l>Vnder the banner of thy passyon</l>
+               <l>Agayne our dedly / dredfull foys thre</l>
+               <l>Suffer vs to falle / in no temptacyon</l>
+               <l>The fleshe the feende / by fals collusyon</l>
+               <l>The olde serpent / with many thousande treyne</l>
+               <l>without blood / shad for our redempcyon</l>
+               <l>we may in charyte / not well this prayer saye</l>
+            </lg>
+            <lg>
+               <l>¶ It is remembred / of Mathees the gospell</l>
+               <l>Of a seruaunt / as made is mencyon</l>
+               <l>Bycause his lorde / was agayne hym fell</l>
+               <l>He was feteryd and sygned to pryson</l>
+               <l>In sygne / who wyll do no remyssyon</l>
+               <l>At suche a streygth / his seruaunt for to saue</l>
+               <l>Dimitte nobis / put from this orison</l>
+               <l>who doth no mercy / he shall no mercy haue</l>
+            </lg>
+            <q xml:lang="lat">Sed libera nos a malo.</q>
+            <lg>
+               <l>¶ Of thy benygne / mercyfull pyte</l>
+               <l>Lorde in this perilous / dredfull pylgrymage</l>
+               <l>Saue vs from daunger / and all aduersyte</l>
+               <l>And vs delyuer / from all foreyn damage</l>
+               <l>From peryll passed / without present passage</l>
+               <l>Future swalowyng of fortunes floodes</l>
+               <l>Dredfull carybdys / syrenes mortall rage</l>
+               <l>And transmutacyon / of all worldly goodes.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:178082:6"/>
+               <l>¶ Pater noster this prayer vertuous</l>
+               <l>yf it be sayd / with dew reuerence</l>
+               <l>Of all prayers is most victorious</l>
+               <l>Agayne our thre enemyes / to stonde at dyffence</l>
+               <l>So that Maria lyst shewe her presence</l>
+               <l>And feruent charyte / be captayne of the felde</l>
+               <l>Fy on all infernall violence</l>
+               <l>So chrystes passyon / be portrayed in our shelde</l>
+            </lg>
+            <lg>
+               <l>¶ Lyke a glenare vppon a large londe</l>
+               <l>Amonge shokkes plentuous of auctours</l>
+               <l>Though I were besy / to gader with my honde</l>
+               <l>Lyke myne desyre to haue founde out some flours</l>
+               <l>The grene was ropen / russet were the colours</l>
+               <l>I foūde no suger / in my small liberary</l>
+               <l>Soil dryed vp / of Cullius syiuer shours</l>
+               <l>Ferefull and dull / there longer for to tarry</l>
+            </lg>
+            <lg>
+               <l>¶ In this processe any more to saye</l>
+               <l>Good wyll abode in my inwarde entent</l>
+               <l>The aureate lycour was in my study dreye</l>
+               <l>Of callyope / and all her fauour spent</l>
+               <l>Founde there no causes / but scrowles all to rent</l>
+               <l>Nothynge ellumyned / with golde asure norred</l>
+               <l>whiche shalbe ioyned / with my testament</l>
+               <l>Layde on my brest / the houre whan I shall be ded</l>
+            </lg>
+            <lg>
+               <l>¶ Though I was dull / in my deuocyons</l>
+               <l>Duryng my lyfe / with cordyall reuerence</l>
+               <l>Dayly to saye / these .vii. peticyons</l>
+               <l>Herte and mouth accordynge in sentence</l>
+               <pb facs="tcp:178082:6"/>
+               <l> with cyrcumstaunces / of intellygence</l>
+               <l>To please the lorde / with hole affecyon</l>
+               <l>Veyne thoughtes / voyde flouth and neglygence</l>
+               <l>Mor than a thousand without deuocyon</l>
+            </lg>
+            <lg>
+               <head>¶ Lenuoy.</head>
+               <lg>
+                  <l>¶ To all my maysters knelynge on my kne</l>
+                  <l>That shall rede this compylacyon</l>
+                  <l>I praye them mekely / of theyr benygnyte</l>
+                  <l>Fyrste dewly done / examynacyon</l>
+                  <l>And folowynge after iuste correcyon</l>
+                  <l>whan they haue leysoure and couenable space</l>
+                  <l>That I maye fynde supportacyon</l>
+                  <l>By godly fauour / to correcte of theyr grace.</l>
+               </lg>
+               <lg>
+                  <l>¶ Man lyfte vp thy harte / to the father in heuen</l>
+                  <l>And praye vnto hym / whiche is eternall</l>
+                  <l>That sytteth so farre / aboue ther sterres seuen</l>
+                  <l>In his palays most imperyall</l>
+                  <l>To graunte vs grace here in this lyfe mortall</l>
+                  <l>Contricyon of synne / afore our departynge</l>
+                  <l>And or we passe / remyssyon finall</l>
+                  <l>Towarde that lyfe / where ioye is euer lastynge.</l>
+                  <l>Amen.</l>
+               </lg>
+            </lg>
+            <pb facs="tcp:178082:7"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:178082:7"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+         <div type="illustration">
+            <pb facs="tcp:178082:8"/>
+            <p>
+               <figure>
+                  <q xml:lang="lat">In principio de{us} creauit celū et terra:</q>
+               </figure>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
